@@ -95,6 +95,25 @@ body{
 
 /*navigation search bar top ends*/
 
+ /*main section start*/
+
+ #main{
+
+      background-color: white;
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    margin-top: 15vh;
+    margin-left: 5vw;
+ }
+.album-playing_design{
+
+
+}
+
+ /*main section ends*/
+
 /*common class starts*/
 
 .txt-white{
