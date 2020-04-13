@@ -13,6 +13,9 @@ body{
     position: fixed;
     top: 0;
     height: 86px;
+    background-color: #0C1027;
+
+
     width: 100%;
    }
  #logo-header{
@@ -99,13 +102,14 @@ body{
 
  #main{
 
-      background-color: white;
+    background-color: #FFEB3B;
     width: 60%;
-    height: 100%;
-    position: fixed;
+    height: 98vh;
+    position: static;
     display: flex;
-    margin-top: 15vh;
+    margin-top: 14vh;
     margin-left: 5vw;
+    float: left;
  }
 .album-playing_design{
 
@@ -113,6 +117,21 @@ body{
 }
 
  /*main section ends*/
+
+
+
+ /*aside section start*/
+
+#aside{
+    float: right;
+    width: 30%;
+    height: 98vh;
+    margin-top: 14vh;
+    margin-right: 19px;
+    /* position: static; */
+    background-color: red
+
+}
 
 /*common class starts*/
 
