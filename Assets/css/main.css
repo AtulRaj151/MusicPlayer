@@ -99,7 +99,7 @@ body{
 
 /*navigation search bar top ends*/
 
- /*main section start*/
+ /*......................................................main section start........................................*/
 
  #main{
 
@@ -195,7 +195,7 @@ body{
    
 }
 
-/*latest release section start*/
+/*//////////////latest release section start//////////////*/
 
 
 
@@ -210,7 +210,7 @@ body{
 
 }
 
-#latest-container-design{
+.container-design-heading{
    
     height: 8%;
     width: 100%;
@@ -338,11 +338,97 @@ body{
     
 }
 
-/*latest release section  ends*/
+/*///////////latest release section  ends/////////////*/
 
 
 
- /*main section ends*/
+/*<<<<<<<<<<<<<<<<<<popular artist start>>>>>>>>>>>>>>>>*/  
+
+.card-layout{
+
+/*    border: 1px solid white;*/
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 19vh;
+}
+
+.carousel-layout{
+
+/*   border: 1px solid green;*/
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.carousel-layout li{
+
+    display: inline-block;
+    padding: 7px;
+}
+.popular-artist-item{
+
+     height: 100%;
+     width: 102px;
+    /* border:1px solid tomato;*/
+     display: inline-block;
+     position: relative;
+}
+ .popular-artist-img{
+    height: 102px;
+    width: 102px;
+/*    border: 1px solid red;*/
+    
+ }
+
+  .popular-artist-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+ }
+ .artist-name{
+
+    height: auto;
+   /* border: 1px solid #2196F3;*/
+    width: 100%;
+    position: absolute;
+    padding: 4px;
+    margin-left: -6px;
+ }
+ .artist-name h4{
+
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+ }
+
+
+ .disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<popular artist ends>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+
+ /*....................................................main section ends.........................................................*/
 
 
 
