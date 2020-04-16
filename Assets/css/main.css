@@ -187,9 +187,8 @@ body{
 }
 .album-playing_design img{
 
-
-height: 41vh;
-    width: 32vh;
+    height: 41vh;
+    width: 95%;
     padding: 1rem;
     margin: 0rem
 
