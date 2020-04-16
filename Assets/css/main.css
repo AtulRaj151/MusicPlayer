@@ -99,7 +99,7 @@ body{
 
 /*navigation search bar top ends*/
 
- /*main section start*/
+ /*......................................................main section start........................................*/
 
  #main{
 
@@ -137,30 +137,29 @@ body{
 
 #main-popular-artists{
 
-   border: 1px solid black;
+
     height: 60vh;
     width: 100%;
 
 }
 
-#main-album-genere{
+#main-album-genre{
 
-   border: 1px solid black;
+  
     height: 60vh;
     width: 100%;
 
 }
 
 #main-album-thumbnail{
-   border: 1px solid black;
-    height: 60vh;
+    height: 51vh;
     width: 100%;
 
 }
 
 #latest-song-eng{
 
-     border: 1px solid black;
+     
     height: 60vh;
     width: 100%;
 
@@ -169,7 +168,7 @@ body{
 
 #latest-song-hin{
 
-     border: 1px solid black;
+   
     height: 60vh;
     width: 100%;
 
@@ -195,7 +194,7 @@ body{
    
 }
 
-/*latest release section start*/
+/*//////////////latest release section start//////////////*/
 
 
 
@@ -210,9 +209,9 @@ body{
 
 }
 
-#latest-container-design{
+.container-design-heading{
    
-    height: 8%;
+    height: 13%%;
     width: 100%;
 
 }
@@ -338,11 +337,249 @@ body{
     
 }
 
-/*latest release section  ends*/
+/*///////////latest release section  ends/////////////*/
 
 
 
- /*main section ends*/
+/*<<<<<<<<<<<<<<<<<<popular artist start>>>>>>>>>>>>>>>>*/  
+
+.card-layout{
+
+/*    border: 1px solid white;*/
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 19vh;
+}
+
+.carousel-layout{
+
+/*   border: 1px solid green;*/
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.carousel-layout li{
+
+    display: inline-block;
+    padding: 7px;
+}
+.popular-artist-item{
+
+     height: 100%;
+     width: 102px;
+    /* border:1px solid tomato;*/
+     display: inline-block;
+     position: relative;
+}
+ .popular-artist-img{
+    height: 102px;
+    width: 102px;
+/*    border: 1px solid red;*/
+    
+ }
+
+  .popular-artist-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+ }
+ .artist-name{
+
+    height: auto;
+   /* border: 1px solid #2196F3;*/
+    width: 100%;
+    position: absolute;
+    padding: 4px;
+    margin-left: -6px;
+ }
+ .artist-name h4{
+
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+ }
+
+
+ .disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<popular artist ends>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*/////////////////genre start/////////////*/
+.genre-item{
+
+     height: 100%;
+     width: 102px;
+    /* border:1px solid tomato;*/
+     display: inline-block;
+     position: relative;
+}
+
+.genre-item-img-container{
+
+      height: 102px;
+    width: 102px;
+
+}
+
+
+.genre-item-img-container img{
+
+       height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+
+}
+.genre-name{
+
+
+        height: auto;
+   /* border: 1px solid #2196F3;*/
+    width: 100%;
+    position: absolute;
+    padding: 4px;
+    margin-left: -6px;
+
+
+}
+.genre-name h4{
+
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+
+
+}
+/*//////////////genre end//////////////////*/
+
+
+
+/*album thumbnail start*/
+
+
+.card-layout-latest-song{
+
+   width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 25vh;
+}
+
+.card-layout-thumbnail{
+
+
+   width: 100%;
+    margin: 1px;
+    padding: 1px;
+    height: 25vh;
+}
+
+
+
+.album-thumbnail-item{
+
+     height: 100%;
+     width: 300px;
+    /* border:1px solid tomato;*/
+     display: inline-block;
+     position: relative;
+
+
+}
+
+.album-thumbnail-item img{
+
+     height: 100%;
+     width: 100%;
+}
+
+.album-thumbnail-item div{
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+
+}
+
+
+.latest-song-eng-item{
+
+   
+     height: 100%;
+     width: 160px;
+    /* border:1px solid tomato;*/
+     display: inline-block;
+     position: relative;
+
+
+}
+
+.latest-song-eng-img-container{
+
+    height: 70%;
+    width: 150px;
+}
+
+.latest-song-eng-item img{
+
+       height: 100%;
+       width: 100%;
+
+}
+.eng-song-name{
+
+    position: absolute;
+    text-align: left;
+    bottom: 24%;
+    font-family: monospace;
+    left: 8%;
+    transform: translate(-9%, 61%);
+    line-height: 1;;
+
+}
+
+.eng-song-date{
+
+    position: absolute;
+    bottom: 12%;
+    font-size: 0.7rem;
+    left: 6%;
+}
+
+/*album thumbnail ends*/
+
+
+ /*....................................................main section ends.........................................................*/
 
 
 
@@ -377,3 +614,5 @@ body{
 }
 
 /*common class ends*/
+
+
