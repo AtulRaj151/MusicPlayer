@@ -588,11 +588,153 @@ body{
 #aside{
     float: right;
     width: 30%;
+    position: relative;
     height: 250vh;
     margin-top: 14vh;
     margin-right: 3vw;
-    /* position: static; */
-    background-color: red
+    /*border:1px solid white;*/
+
+}
+
+#aside-heading{
+
+     position: relative;
+    width: 100%;
+    text-align: center;
+    height: 3%;
+}
+
+#aside-heading h3{
+
+     height: 1.5em;
+    width: 5em;
+    position: absolute;
+    padding: 2px;
+    margin-left: 12%;
+    color: white;
+    font-weight: 700;
+    margin: 0px;
+    margin-top: 2%;
+    font-size: 2em;
+}
+
+#aside-heading button{
+
+
+    text-align: right;
+    position: absolute;
+    right: 12%;
+    height: 46%;
+    width: 19%;
+    top: 19%;
+    background-color: inherit;
+    border: 0px;
+}
+
+#aside-heading button h4{
+
+    position: relative;
+    height: inherit;
+    width: inherit;
+    top: inherit;
+    margin: 0px;
+    padding: 0px;
+    font-style: oblique;
+    color: #98a7fb;
+}
+.aside-container-item{
+
+    box-sizing: border-box;
+    /*border: 1px solid white;*/
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.q-items{
+
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.q-items li{
+
+    height: 8vh;
+    /*border: 1px solid white;*/
+    width: 100%;
+    position: relative;
+}
+.q-no{
+
+    height: inherit;
+    width: 3vw;
+    /*border: 1px solid green;*/
+}
+.q-image{
+
+        height: inherit;
+    width: 6vw;
+    /*border: 1px solid green;*/
+    position: absolute;
+    top: 0px;
+    left: 11%;
+}
+.q-image img{
+
+    height: 100%;
+    width: 100%;
+
+}
+.q-title{
+
+    position: absolute;
+    top: 0px;
+    /*border: 1px solid red;*/
+    height: inherit;
+    width: 51%;
+    left: 33%;
+}
+.q-like{
+
+    position: absolute;
+    height: inherit;
+    width: 15%;
+    /*border: 1px solid wheat;*/
+    top: 0px;
+    right: 0%;
+}
+.q-like i{
+
+    position: absolute;
+    top: 36%;
+    left: 29%;
+    color: white;
+}
+#q-title-song-name{
+
+
+     color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-family: sans-serif;
+}
+
+#q-item-song-album{
+
+     color: white;
+    position: absolute;
+    top: 51%;
+    left: 9%;
+    letter-spacing: 2px;
+    font-family: monospace;
+
 
 }
 
