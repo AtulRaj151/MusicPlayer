@@ -299,7 +299,7 @@ body{
 
 .at-detail{
 
-    border: 1px solid white;
+  /*  border: 1px solid white;*/
     position: absolute;
     display: inline-block;
     height: 50%;
@@ -320,7 +320,7 @@ body{
     display: inline-block;
     height: 50%;
     width: 30vw;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     margin-right: 0%;
     float: right;
     top: 16%;
@@ -331,9 +331,9 @@ body{
 .at-songs{
     position: absolute;
     display: inline-block;
-    border: 1px solid white;
+/*    border: 1px solid white;*/
     width: 60vw;
-    height: 37vh;
+    height: 61vh;
     float: left;
     margin-left: 5%;
     top: 68%;
@@ -344,12 +344,12 @@ body{
 
        position: absolute;
     display: inline-block;
-    border: 1px solid white;
+   /* border: 1px solid white;*/
     width: 30vw;
     height: 37vh;
     float: right;
     top: 68%;
-    left: 68%;
+    margin-left: 67%;
 }
 
 
@@ -425,9 +425,336 @@ body{
     font-size: 0.8em;
     cursor: pointer;
 }
+.sl-artist-container{
+     display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+
+/*similar artist section starts*/
+
+   .container-design-heading{
+   
+    height: 13%%;
+    width: 100%;
+    font-size: 0.8em;
+
+
+}
+
+
+.card-heading{
+     display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.82em;
+    margin-inline-start: 16px;
+    margin-inline-end: 4px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+
+}
+
+#card-design-latest-release-container{
+
+        width: 100%;
+    padding: 0px;
+    height: 86%;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: space-around;
+    
+
+
+}
+
+.card-latest-item{
+    height: 24%;
+    width: 102%;
+    position: relative;
+    padding: 0px;
+    margin: 6px;
+
+
+}
+
+.card-latest-item img{
+    width: 20%;
+    height: 100%;
+}
+
+.song-name{
+
+     font-size: 0.3rem;
+    font-weight: 400;
+    padding: 1px;
+    font-family: cursive;
+    position: absolute;
+   
+}
+
+.song-date{
+
+     font-size: 0.2rem;
+    font-weight: 400;
+    padding: 1px;
+    font-family: sans-serif;
+    position: absolute;
+
+}
+#latest-song-name{
+
+    margin-top: 2px;
+    font-size: 1em;
+    margin-left: 2px;
+    margin-right: -1rem;
+
+
+}
+#latest-song-date{
+
+    margin-top: 43px;
+    font-size: 0.8em;
+    margin-left: 4px;
+    margin-right: -1px;
+
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 0%;
+    height: 20%;
+    overflow: hidden;
+
+    width: 17%;
+    left: 80%;
+
+}
+
+.dropdown-menu button{
+
+   height: 100%;
+    padding: 3px;
+    top: -3%;
+    left: -2%;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    background-color: #0c1027;
+    outline: none;
+}
+
+.dropdown-menu button i{
+
+        font-size: 1.6em;
+    line-height: 0.6em;
+    margin-top: 1px;
+    vertical-align: 1.1em;
+    height: inherit;
+    color: white;
+    cursor: pointer;
+}
+#song-length{
+
+       height: 19px;
+    width: 41px;
+    position: absolute;
+    top: 44%;
+    display: inline-block;
+    left: 85%;
+}
+
+#song-length span{
+
+    height: inherit;
+    font-weight: 200;
+    display: inline-block;
+    width: inherit;
+    
+}
+
+/*similar artist section endds*/
+
+
+/*artist songs container*/
+
+.at-songs-container{
+
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.at-songs-container-item{
+
+    box-sizing: border-box;
+    /*border: 1px solid white;*/
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.q-items{
+
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.q-items li{
+
+    height: 8vh;
+    /*border: 1px solid white;*/
+    width: 100%;
+    position: relative;
+    background-color: #2f3453;
+}
+.q-no{
+
+    height: inherit;
+    width: 3vw;
+    /*border: 1px solid green;*/
+}
+.q-image{
+
+    height: inherit;
+    width: 6vw;
+    /* border: 1px solid green; */
+    position: absolute;
+    top: 0px;
+    left: 6%;
+}
+.q-image img{
+
+    height: 100%;
+    width: 83%;
+
+}
+.q-title{
+
+      position: absolute;
+    top: 0px;
+    /* border: 1px solid red; */
+    height: inherit;
+    width: 51%;
+    left: 13%;
+}
+.q-like{
+
+    position: absolute;
+    height: inherit;
+    width: 15%;
+    /*border: 1px solid wheat;*/
+    top: 0px;
+    right: 0%;
+}
+.q-like i{
+
+    position: absolute;
+    top: 36%;
+    left: 29%;
+    color: white;
+}
+#q-title-song-name{
+
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 3%;
+    left: 7%;
+    font-family: sans-serif;
+}
+
+#q-item-song-album{
+
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 7%;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 0.8em;
+
+
+}
+
+/*artist songs container ends*/
+
+
+/*rencently played items*/
+.rc-songs-container{
+  position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#rc-q-title-song-name{
+
+   color: white;
+    font-size: 0.7em;
+    position: absolute;
+    top: 17%;
+    left: 22%;
+    font-family: sans-serif;
+}
+
+#rc-q-item-song-album{
+
+    color: white; 
+    position: absolute;
+    top: 53%;
+    left: 24%;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 0.6em;
+
+
+}
+
+.rc-q-items{
+
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.rc-q-items li{
+
+    height: 8vh;
+    /*border: 1px solid white;*/
+    width: 100%;
+    position: relative;
+    
+}
 
 
 /*main section ends*/
+
+
+/*common classes*/
+
 
 
 .txt-white{
@@ -437,5 +764,17 @@ body{
 .txt-bold{
 
      font-weight: bold;
+}
+
+
+ .disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
 }
 
