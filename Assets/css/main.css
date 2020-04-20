@@ -738,8 +738,205 @@ body{
 
 }
 
+/*footer section start*/
+#footer{
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    
+    height: 10vh;
+    background-color: #202020;
+
+}
+#current-song-container{
+
+    height: 80%;
+  
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 15%;
+}
+
+#current-song-img{
+
+    height: 80%;
+  
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 20%;
+
+}
+
+#current-song-img img{
+
+    height: 100%;
+    width: 100%;
+}
+
+#song-name{
+
+       height: 55%;
+     
+      width: 68%;
+    position: absolute;
+    left: 31%;
+    top: 1%;
+    color: white;
+    font-size: 1.8em;
+
+}
+#song-artist{
+
+     height: 40%;
+       
+      width: 68%;
+    position: absolute;
+    left: 31%;
+    top: 57%;
+    color: white;
+    letter-spacing: 2;
+    font-family: monospace;
+
+}
+
+.play-control-container{
+
+  
+    height: 84%;
+    position: relative;
+    width: 40%;
+    left: 28%;
+    bottom: 73%;
+}
+
+.play-control{
+
+     width: 60%;
+     height: 60%;
+     position: absolute;
+     left: 20%;
+     display: flex;
+     justify-content: space-around;
+}
+.play-like{
+
+    position: absolute;
+    left: 22%;
+    top: 18%;
+    color: white;
+}
+
+.play-ban{
+
+    position: absolute;
+    left: 22%;
+    top: 50%;
+    color: white;
+}
+
+.btn-random{
+  color: white;
+  font-size: 1.4em;
+
+
+}
+
+.btn-bck{
+
+     color: white;
+  font-size: 1.6em;
+
+
+
+}
+.btn-pause{
+ color: white;
+  font-size: 1.8em;
+
+}
+.btn-frwd{
+
+     color: white;
+  font-size: 1.6em;
+
+
+
+}
+.btn-repeat{
+     color: white;
+  font-size: 1.4em;
+
+
+
+}
+.play-progress{
+
+       width: 100%;
+       height: 38%;
+      
+       position: absolute;
+       top: 60%;
+
+}
+
+.btn-progress{
+
+    position: relative;
+   
+    height: 30%;
+    width: 80%;
+    left: 10%;
+    background: #46433f;
+    top: 26%;
+
+}
+.progress-len{
+
+    position: absolute;
+    height: 100%;
+    background-color: #77f449;
+    width: 40%;
+
+}
+.progress-end{
+
+        position: absolute;
+    height: 22px;
+    width: 22px;
+    background-color: white;
+    border-radius: 50%;
+    left: 39%;
+    top: -82%;
+    
+}
+.vol-control{
+
+        position: relative;
+    height: 37%;
+    width: 12%;
+    
+    top: -133%;
+    float: right;
+    bottom: 51%;
+    right: 6%;
+}
+#vol-img{
+
+    color: white;
+    position: absolute;
+    top: 16%;
+}
+
+
+/*footer section ends*/
+
 
 /*common class starts*/
+
+
 
 .left-align{
 
