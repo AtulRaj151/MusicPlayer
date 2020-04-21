@@ -178,11 +178,25 @@ body{
 .album-playing_design{
 
       height: auto;
-    width: 49rem
-  
+    width: 49rem;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
   
 
-   
+}
+
+ .album-playing_design:hover  {
+
+       transform: scale(1.1);
+       opacity: 1;
+
+}
+
+ .album-playing:hover  {
+     transform: scale(0.8);
+     opacity: 0.1;
+     
+
 }
 .album-playing_design img{
 
@@ -242,10 +256,35 @@ body{
 
 }
 
+.card-latest-item   #play-img {
+
+    color: white;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transition: all .3s ease;
+}
+
+.card-latest-item img:hover ~#play-img{
+
+      display: block;
+
+}
+.card-latest-item img:hover {
+
+     transform: scale(1.1);
+     opacity: 0.9;
+
+}
+
+
 .card-latest-item img{
 
         width: 33%;
-    height: 100%
+    height: 100%;
+  cursor: pointer;
+  transition: all .3s ease-in;
 }
 
 .song-name{
@@ -289,7 +328,7 @@ body{
     position: absolute;
     top: 0%;
     height: 20%;
-    overflow: hidden;
+    
 
     width: 17%;
     left: 80%;
@@ -308,6 +347,8 @@ body{
     width: 100%;
      background-color: #0c1027;
      border: none;
+     cursor: pointer;
+
 }
 
 .dropdown-menu button i{
@@ -320,6 +361,51 @@ body{
     width: inherit;
     color: white;
 }
+.dropdown-content{
+    position: absolute;
+    max-width: 118px;
+    height: 8.6vh;
+    width: 147px;
+    background-color: white;
+     display: none; 
+    top: 61%;
+    left: 34%;
+    flex-direction: column;
+    font-size: 1rem;
+    z-index: 1;
+   
+}
+
+.dropdown-content a{
+       height: 25px;
+    color: black;
+    border: 1px solid black;
+    padding: 0px 2px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 0.1px solid grey;
+    width: 95%;
+     transition: all .4s ease-in-out;
+
+
+}
+
+.dropdown-content  a  i{
+
+       color: #1b2663;
+}
+
+.dropdown-menu button:hover  ~ .dropdown-content{
+    display: flex;
+
+
+    
+}
+
+ /*dropdown hover*/
+
+
 #song-length{
 
        height: 19px;
@@ -379,6 +465,14 @@ body{
     /* border:1px solid tomato;*/
      display: inline-block;
      position: relative;
+   
+     
+}
+
+.popular-artist-item:hover{
+
+      opacity: 0.8;
+
 }
  .popular-artist-img{
     height: 102px;
@@ -709,6 +803,12 @@ body{
     /*border: 1px solid wheat;*/
     top: 0px;
     right: 0%;
+
+}
+
+.q-like i:hover{
+
+     color:   red;
 }
 .q-like i{
 
@@ -716,6 +816,7 @@ body{
     top: 36%;
     left: 29%;
     color: white;
+    cursor: pointer;
 }
 #q-title-song-name{
 
@@ -740,9 +841,15 @@ body{
 
 }
 
-/*footer section start*/
-#footer{
+/*
+    
+*/
 
+/*footer section start*/
+
+
+#footer{
+    
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -829,6 +936,11 @@ body{
     left: 22%;
     top: 18%;
     color: white;
+    cursor: pointer;
+}
+.play-like:hover{
+
+    color:red;
 }
 
 .play-ban{
@@ -837,11 +949,13 @@ body{
     left: 22%;
     top: 50%;
     color: white;
+      cursor: pointer;
 }
 
 .btn-random{
   color: white;
   font-size: 1.4em;
+    cursor: pointer;
 
 
 }
@@ -850,6 +964,7 @@ body{
 
      color: white;
   font-size: 1.6em;
+    cursor: pointer;
 
 
 
@@ -857,12 +972,14 @@ body{
 .btn-pause{
  color: white;
   font-size: 1.8em;
+    cursor: pointer;
 
 }
 .btn-frwd{
 
      color: white;
   font-size: 1.6em;
+    cursor: pointer;
 
 
 
@@ -870,7 +987,7 @@ body{
 .btn-repeat{
      color: white;
   font-size: 1.4em;
-
+  cursor: pointer;
 
 
 }
@@ -881,6 +998,7 @@ body{
       
        position: absolute;
        top: 60%;
+         cursor: pointer;
 
 }
 
@@ -893,6 +1011,7 @@ body{
     left: 10%;
     background: #46433f;
     top: 26%;
+      cursor: pointer;
 
 }
 .progress-len{
@@ -912,6 +1031,7 @@ body{
     border-radius: 50%;
     left: 39%;
     top: -82%;
+      cursor: pointer;
     
 }
 .vol-control{
@@ -924,6 +1044,7 @@ body{
     float: right;
     bottom: 51%;
     right: 6%;
+      cursor: pointer;
 }
 #vol-img{
 
