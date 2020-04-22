@@ -355,6 +355,14 @@ body{
 
 }
 
+.q-no{
+
+        color: #5e70d6;
+    position: relative;
+    top: 25%;
+    left: 3%;
+}
+
 .at-songs{
     position: absolute;
     display: inline-block;
