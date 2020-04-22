@@ -4,6 +4,7 @@ body{
 
 }
 
+
 /*navigation  search bar top starts*/
 
    #nav-search-bar{
@@ -22,7 +23,7 @@ body{
  #logo-header{
     height: inherit;
     width: 159px;
-    margin-left: 51px;
+    margin-left: 1%;
     display: flex
  }
 
@@ -40,7 +41,7 @@ body{
 
  #nav-favourite{
 
- 	margin-left: 284px;
+ 	margin-left: 22%;
     width: 100px;
     top: 20px;
     position: absolute;
@@ -48,7 +49,7 @@ body{
  #nav-search {
     position: absolute;
     top: 20px;
-    right: 286px;
+    right: 28%;
  }
 
 
@@ -75,7 +76,7 @@ body{
     width: 20px;
     position: absolute;
     top: 26px;
-    right: 200px
+    right: 17%;
  }
 
  #user-profile{
@@ -239,7 +240,7 @@ body{
     border: 0px;
     display: flex;
     flex-wrap: wrap;
-    overflow: auto;
+    overflow: visible;
     justify-content: space-around;
     
 
@@ -548,6 +549,11 @@ body{
 
 
 }
+
+.genre-item-img-container img:hover{
+    
+     opacity: 0.8;
+}
 .genre-name{
 
 
@@ -605,15 +611,27 @@ body{
     /* border:1px solid tomato;*/
      display: inline-block;
      position: relative;
+     overflow: hidden;
 
 
 }
 
 .album-thumbnail-item img{
 
-     height: 100%;
-     width: 100%;
+    height: 100%;
+    width: 100%;
+    transition: all .4s cubic-bezier(0.51, 0.22, 0.35, 0.76);
 }
+
+
+.album-thumbnail-item img:hover{
+
+      transform: scale(1.3);
+      
+
+}
+
+
 
 .album-thumbnail-item div{
 
@@ -785,6 +803,10 @@ body{
     height: 100%;
     width: 100%;
 
+}
+.q-image img:hover{
+
+    opacity: 0.7;
 }
 .q-title{
 
@@ -1006,7 +1028,7 @@ body{
 
     position: relative;
    
-    height: 30%;
+    height: 14%;
     width: 80%;
     left: 10%;
     background: #46433f;
@@ -1030,27 +1052,40 @@ body{
     background-color: white;
     border-radius: 50%;
     left: 39%;
-    top: -82%;
+    top: -214%;
       cursor: pointer;
+    
+}
+
+.vol-progress-end{
+
+         position: absolute;
+    height: 22px;
+    width: 22px;
+    background-color: white;
+    border-radius: 50%;
+    left: 39%;
+    top: -418%;
+    cursor: pointer;
     
 }
 .vol-control{
 
-        position: relative;
-    height: 37%;
+           position: relative;
+    height: 17%;
     width: 12%;
-    
-    top: -133%;
+    top: -107%;
     float: right;
     bottom: 51%;
     right: 6%;
-      cursor: pointer;
+    cursor: pointer;
 }
 #vol-img{
 
     color: white;
     position: absolute;
-    top: 16%;
+    top: -5%;
+    left: -13%;
 }
 
 
@@ -1076,5 +1111,7 @@ body{
 }
 
 /*common class ends*/
+
+
 
 
