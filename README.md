@@ -5,4 +5,4 @@ This is the simple Music Player which aims to give Resposive design both for mob
 # Assets
 Assests consists of all the images and css configuration files 
 
-# Link   https://atulraj151.github.io/MusicPlayer/
+# Link   https://atulraj151.github.io/MusicPlayer/index.html
