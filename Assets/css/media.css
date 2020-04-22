@@ -168,3 +168,7 @@
 }
 
 }
+
+*::-webkit-scrollbar {
+  display: none;
+}
