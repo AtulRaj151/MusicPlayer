@@ -35,6 +35,19 @@
        }
 
 
+       #latest-song-date {
+
+    font-size: 0.5em;
+        margin-top: 28px;
+
+     }
+
+     #song-length span {
+   
+    font-size: 0.7em;
+}
+
+
    /*footer section*/
 	 .play-control{
 
@@ -90,6 +103,307 @@
 /*artist page*/
 
 @media screen and (max-width: 800px){
+.at-detail{
+
+    height: 60%;
+    width: 90%;
+    top: 16%;
+    margin-left: 1%;
+    right: 2%;
+    left: 4%;
+}
+
+.at-play {
+
+    margin-top: 18%;
+	}
+
+.at-songs {
+    position: absolute;
+    /* display: inline-block; */
+    /* border: 1px solid white; */
+    width: 90%;
+    height: 61vh;
+    
+    /* margin-left: 5%; */
+    top: 74vh;
+    left: 0%;
+ }
+
+ #q-title-song-name {
+    font-size: 1em;
+ }
+
+.sl-artist{
+      position: absolute; */
+    /* display: inline-block; */
+    height: 50%;
+    width: 95%;
+    /* border: 1px solid white; */
+    /* margin-right: 0%; */
+    /* float: right; */
+    top: 137vh;
+    /* margin-left: 67%; */
+    left: -62%;
+  }
+
+  .sl-artist-container{
+
+  	 width: 92%;
+  }
+
+  .rc-songs{
+
+
+   
+    width: 90%;
+    height: 37vh;
+ 
+    top: 188vh;
+    margin-left: 3%;
+    left: -3%;
+  }
+
+  .rc-q-items{
+
+  	   padding-left: 6px;
+
+  }
+
+  
+
+.rc-songs-container {
+    
+    width: 94%;
+   
+    padding: 2px;
+    margin: 22px;
+}
+
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+/*++++++++++++++++++++++++++++++300px less than""""""""""""""""""""""""""""""""""""""""""""""""""|||||||||*/
+
+
+@media screen and (max-width: 490px){
+  
+
+    /*nav section*/
+
+     #nav-favourite {
+    margin-left: 15%;
+    top: 66px;
+    font-size: 0.8rem;
+    
+}
+
+#nav-search{
+
+	position: unset;
+}
+
+#nav-search input{
+
+	height: 26px;
+    width: 100%;
+}
+
+#nav-search form{
+	    height: 28px;
+}
+
+#nav-search form i {
+
+	display: block;
+    top: -3vh;
+    position: relative;
+   right: -92vw;
+}
+
+#user-profile{
+
+	right: -11vw;
+}
+#notify-profile span i {
+
+	display: block;
+    position: relative;
+    right: 5vw;
+}
+
+
+   /*aside section */
+	 #aside{
+
+	 	display: none;
+	 }
+
+   /*main section*/
+	 #main{
+
+	 	 width: 100%;
+	 	 margin-left: -1vw;
+	 }
+
+	 #album-playing{
+
+	 	top: 5vh;
+	 }
+
+	 #latest-song-name{
+
+	 	    font-size: 0.5em;
+    margin-left: 1px;
+	 }
+
+	 #latest-song-date {
+    margin-top: 21px;
+    font-size: 0.2em;
+
+    }
+
+
+.card-heading {
+
+    font-size: 0.9em;
+}
+
+
+
+.dropdown-menu button i {
+    font-size: 0.8em;
+
+}
+
+#song-length span {
+
+    font-size: 0.4em;
+}
+
+
+
+	 .album-playing_design img {
+    height: 25vh;
+    width: 93%;
+
+       }
+
+       #main-latest-releases {
+         height: 32vh;
+         width: 108%; 
+       }
+
+
+   .album-thumbnail-item div {
+
+    font-size: 1rem;
+}
+
+   /*footer section*/
+	 .play-control{
+
+	 	width: 105%;
+	 	left: 3%;
+	 }
+
+	 .play-progress{
+
+	 	height: 15%;
+	 }
+
+	 .progress-end{
+
+	 	top: -428%;
+	 	height: 11px;
+	 	width: 11px;
+	 }
+
+	 .vol-progress-end {
+ 
+    height: 11px;
+    width: 11px;
+
+}
+
+	 .play-like{
+
+		 	right: 20%;
+	 	    top: 8%;
+	 	    left: 82%;
+
+	 }
+	 .play-ban{
+	 	     left: 89%;
+             top: 7%;
+	 }
+
+	 #current-song-img {
+        left: -29%;
+        width: 58%;
+      }
+
+      .vol-control{
+
+      	 height: 15%;
+      	 top: -127%;
+
+      }
+
+      #vol-img{
+
+      	    display: block;
+            position: relative;
+           top: 117%;
+           left: -31%;
+      }
+
+
+      .btn-random{
+
+      	font-size: 0.8em;
+      }
+
+      .btn-bck{
+
+      	font-size: 0.9em;
+      }
+
+      .btn-pause{
+
+      	font-size: 1em;
+      }
+
+      .btn-frwd{
+      	font-size: 0.9em;
+      }
+
+      .btn-repeat{
+      	font-size: 0.8em;
+      }
+
+      #song-name {
+ 
+		top: 11%;
+		font-size: 0.9em;
+     }
+
+     #song-artist {
+     	    font-size: 0.6em;
+
+     }
+
+
+
+}
+
+/*artist page*/
+
+@media screen and (max-width: 300px){
 .at-detail{
 
     height: 60%;
