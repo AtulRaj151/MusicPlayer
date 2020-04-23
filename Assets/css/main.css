@@ -370,7 +370,7 @@ body{
 .dropdown-content{
     position: absolute;
     max-width: 118px;
-    height: 8.6vh;
+    height: 12.6vh;
     width: 147px;
     background-color: white;
      display: none; 
@@ -780,7 +780,7 @@ body{
 
 #aside-heading button:hover ~.q-dropdown-content{
 
-  display: block;
+  display: flex;
 }
 
 #aside-heading button{
@@ -926,6 +926,7 @@ body{
     position: fixed;
     bottom: 0px;
     width: 100%;
+    left: 0%;
     
     height: 10vh;
     background-color: #202020;
