@@ -58,11 +58,18 @@
 	 .play-progress{
 
 	 	height: 15%;
+	 	top: 75%;
+	 }
+
+	 .vol-progress-end{
+
+	 	height: 15px;
+    width: 15px;
 	 }
 
 	 .progress-end{
 
-	 	    top: -248%;
+	 	   top: -2vh;
 	 }
 
 	 .play-like{
